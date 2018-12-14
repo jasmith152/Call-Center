@@ -1,0 +1,130 @@
+/* CSS Document */
+/* Reset Browser default styles */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td {
+	font-size: 12px;
+	margin:0;
+	padding:0;
+}
+table{
+    border-collapse: collapse;
+}
+ul,li{
+list-style:none;
+}
+/********************************
+* Global Styles
+********************************/
+html { height: 100%;}
+
+body {
+	margin: 0;padding: 0;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/* Font-size sets the text size specifically and is ignored by IE6,
+but used by Firefox, Safari, IE7, Opera and other modern browsers
+which allow users to resize text sized in pixels */
+html>body {
+	font-size: 12px;
+}
+td.labels{
+	text-align: right;
+	padding-right: 2px;
+}
+/* Buttons */
+input.back_button {
+	width: 20px;
+	height: 20px;
+	background-image: url(../images/back.gif);
+	background-position: center center;
+	border:none;
+}
+input.cancel_button {
+	width: 20px;
+	height: 20px;
+	background-image: url(../images/cancel.gif);
+	background-position: center center;
+	border:none;
+}
+input.delete_button {
+	width: 20px;
+	height: 20px;
+	background-image: url(../images/cancel.gif);
+	background-position: center center;
+	border:none;
+}
+input.home_button {
+	width: 20px;
+	height: 20px;
+	background-image: url(../images/home.gif);
+	background-position: center center;
+	border:none;
+}
+input.reset_button {
+	width: 20px;
+	height: 20px;
+	background-image: url(../images/reset.gif);
+	background-position: center center;
+	border:none;
+}
+input.save_button {
+	width: 20px;
+	height: 20px;
+	background-image: url(../images/save.gif);
+	background-position: center center;
+	border:none;
+}
+input.go_button {
+	width: 20px;
+	height: 20px;
+	background-image: url(../images/go.gif);
+	background-position: center center;
+	border:none;
+}
+input.submit_button {
+	width: 20px;
+	height: 20px;
+	background-image: url(images/tasks/submit.gif);
+	background-position: center center;
+	border:none;
+}
+/* ToolTips */
+#left_tt {
+left:0px;
+width:12px;
+height:auto;
+border-left:solid 1px black;
+background-color:#FFFFCC
+}
+#right_tt {
+	position:relative;
+	right:0px;
+	width:12px;
+	border-right:solid 1px black;
+	background-color:#FFFFCC
+}
+#center_ttop {
+width:auto;
+height:11px;
+border-top:solid 1px;
+background-color:#FFFFCC;
+}
+#center_tt {
+	width:auto;
+	height:12px;
+	border-bottom:solid 1px;
+	background-color:#FFFFCC;
+	top: 0px;
+}
+/* Tool Tips */
+.tooltip_transparent {
+  visibility:hidden;
+  position:absolute; 
+  border:none; 
+  padding:5px;
+  z-index:100000;
+}
+/* Seminar Tab*/
+select.full_seminar {
+	width: 500px;
+}

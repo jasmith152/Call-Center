@@ -1,0 +1,168 @@
+body {
+    background-color: #FFFFFF;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 85%;
+    margin: 0;
+    padding: 0;
+}
+.hide{
+    display:none;
+}
+.hide_important{
+    display:none !important;
+}
+.invisible{
+    visibility:hidden;
+}
+#ui-datepicker-div{
+    font-size: 70%;
+    z-index: 100000;
+}
+.tr-row-even{
+    background: #EFF5FB;
+}
+.tr-row-odd{
+    background: #CEE3F6;
+}
+.tr-row-lg{
+    background: #D9D9E0;
+}
+.tr-row-even-bold-red{
+    background: #EFF5FB;
+    color:red;
+    font-weight: bold;
+}
+.tr-row-odd-bold-red{
+    background: #DCDCDC;
+    color:red;
+    font-weight: bold;
+}
+.tr-row-hover{
+    background:lightgreen !important;
+}
+/*
+use with jquery calling modal-child to div called modal-setup. must be inside a div called modal-parent
+*/
+.modal-setup{}
+.modal-parent{
+    z-index: 1;
+}
+.modal-parent-relative{
+    position: relative;
+    z-index: 1;
+}
+.modal-child{
+    position:absolute;
+    width:100%;
+    height: 100%;
+    background:url('/images/ajax/dark-loader.gif') no-repeat 50% 50% #AAAAAA;
+    opacity:.5;
+    z-index: 50000;
+}
+.modal-child-simple{
+    position:absolute;
+    width:100%;
+    height: 100%;
+    background:url('/ccenter/images/loading.gif') no-repeat 50% 50% #AAAAAA;
+    opacity:.5;
+    z-index: 50000;
+}
+.modal-block{
+    position:absolute;
+    width:100%;
+    height: 100%;
+    background:#DCDCDC;
+    opacity:.7;
+    z-index: 50000;
+}
+#icons{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* POST TABLE LESS */
+#mc_questionnaire{
+    font-size: 100%;
+}
+#mc_questionnaire .qa-heading{
+    font-size: 16px;
+    border-bottom:solid 1px;
+    margin: 5px 0 10px 10px;
+    width:75%
+}
+#mc_questionnaire .questions{
+    margin: 5px 0 0 15px;
+}
+#mc_questionnaire .question{
+    background-color: #F8F8F8;
+    box-shadow: 3px 3px 1px #DFDFDF;
+    margin: 0 10px 5px 0;
+    padding:3px 2px 2px 0;
+    position: relative;
+}
+#mc_questionnaire .question.odd{
+    padding-top: 5px;
+    background-color: #F0F0F0 ;
+    box-shadow: 3px 3px 1px #DFDFDF;
+    position: relative;
+}
+
+#mc_questionnaire .question .modal-block{
+    margin-top: -5px
+}
+
+#mc_questionnaire .question ul{
+    margin: 0 auto 0 auto;
+}
+#mc_questionnaire .question input{
+    margin: 2px 0 0 0;
+}
+#mc_questionnaire .question input[type="text"]{
+    margin: -4px 0 0 0;
+}
+#mc_questionnaire .question textarea{
+    margin: -4px 0 3px 0;
+}
+#mc_questionnaire .question select{
+    margin: -4px 0 0 0;
+}
+#mc_questionnaire .question ul ul li{
+    margin: 12px 0 0 0;
+}
+#mc_questionnaire .question td select,
+#mc_questionnaire .question td input,
+#mc_questionnaire .question td input[type="text"]{
+    margin: auto;
+}
+.text-center td{
+    text-align: center;
+}
+#mc_questionnaire .question .sub-question input[type="checkbox"]{
+}
+#mc_questionnaire .question label{
+    margin: 0 5px 0 0;
+}
+#mc_questionnaire .questions .question .question-number{
+    width: 25px;
+    text-align: right;
+}
+#mc_questionnaire .questions .question .question-number,
+#mc_questionnaire .questions .question .question-text{
+    display:inline-block;
+    vertical-align:text-top;
+}
+#mc_questionnaire .questions .question .question-text{
+    max-width:500px;
+}    
+#mc_questionnaire .questions .question .answer{
+    font-size: 14px;
+    margin: 0;
+    float:right;
+}
+.ui-required{
+    color:red;
+}
+
+.tier-questions label{
+    margin : 0 0 0 3px;
+}

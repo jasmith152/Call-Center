@@ -1,0 +1,117 @@
+body{
+  font-family: Verdana, Geneva, sans-serif;
+  color:#2E9AFE;
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+  font-size: 75%;
+}
+#content{
+  display: inline-block;
+  padding: 0 0 5px 0;
+}
+#content_wrapper{
+  padding: 5px;
+}
+#content legend{
+  margin: 5px 0 0 0;
+}
+#content input{
+  width:110px;
+  padding:1px;
+  background: url(/ccenter/images/form_shadow.jpg) no-repeat top left;
+  border: 1px #a0c4e4 solid;
+  -moz-border-radius: 3px;
+}
+#content input.dis{
+  background: url(/ccenter/images/form_shadow_disabled.jpg) no-repeat top left;
+}
+#content select{
+  width:115px;
+  padding:1px;
+  background: url(/ccenter/images/form_shadow.jpg) no-repeat top left;
+  border: 1px #a0c4e4 solid;
+  -moz-border-radius: 3px;
+}
+#content td label{
+  float:right;
+}
+#content td #eval_buttons label,
+#content td #pain_time label,
+#content td #had_mri label,
+#content td #wc_status label,
+#content td #work_related label,
+#content td #pain_manage label,
+#content td #legal_counsel label,
+#content td #call_log label,
+#content td #seminar_add label,
+#content td #seminar_consult label,
+#content td #assigned_status label
+{
+  float:none;
+  margin: 0 -3px;
+  padding: 0px 2px;
+  font-size: 14px;
+}
+#content #assigned_status {
+  display:inline-block;
+  margin:5px 0 0 10px;
+}
+#content td table.no_float label{
+  float:none;
+}
+#content #lcc_contact_address,
+#content #lcc_contact_address,
+#content #lcc_contact_email,
+#content #lcc_reminder_note,
+#lcc_contact_address,
+#content #lcc_contact_best_time_id,
+#content #lcc_contact_timezone,
+#content #seminar_date,
+#content #lcc_seminar_attending,
+#content #lcc_seminar_topic
+{
+  width:98%;
+}
+
+#content #lcc_contact_payment_type_id{
+  width:99%;
+}
+#content #lcc_contact_pay_type_comments{
+  width:auto;
+}
+#content #lcc_contact_source_one,#content #lcc_contact_source_two{
+  width:48%;
+}
+#content #lcc_contact_postal_one{
+  width:60px;
+}
+#content #lcc_contact_postal_two{
+  width:30px;
+  margin-left: 5px;
+}
+#content .three_digit{
+  width:25px;
+  text-align: center;
+}
+#content .four_digit{
+  width:40px;
+  text-align: center;
+}
+.rotate_img_180{
+  margin-left:10px;
+  -moz-transform: rotate(180deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+}
+#content .menu-bar{
+  min-height:24px;
+  padding:2px;
+  border-right:none;
+  border-left:none;
+  border-top:none;
+}
+#content .icon{
+  display: inline-block;
+  padding:1px;
+}

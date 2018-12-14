@@ -1,0 +1,580 @@
+.old-wrapped .required{
+    border:solid #FF0000 1px;
+}
+.old-wrapped label,
+.old-wrapped input,
+.old-wrapped select {
+    display: block;
+    width: 125px;
+    float: left;
+    margin-bottom: 5px;
+}
+/* Inputs */
+.old-wrapped .no_mar {
+    margin-bottom: 0px;
+}
+.old-wrapped .no_float {
+    display:inline;
+    width:auto;
+    margin-bottom: 0px;
+    float:none;
+    display:inline;
+    padding-bottom:0px;
+}
+.old-wrapped input.zip {
+    width: 85px;
+}
+.old-wrapped input.zip_b {
+    width: 39px;
+    margin-left: 1px;
+}
+.old-wrapped input.newmail {
+    width: 190px;
+    margin-left: 1px;
+}
+.old-wrapped input.newmail_check {
+    width: 174px;
+    margin-left: 1px;
+}
+.old-wrapped input.date {
+    width: 80px;
+}
+.old-wrapped input.date_one {
+    width: 36px;
+}
+.old-wrapped input.date_two {
+    width: 36px;
+    margin-left: 1px;
+}
+.old-wrapped input.date_three {
+    width: 51px;
+    margin-left: 1px;
+}
+.old-wrapped input.phone_one {
+    width: 29px;
+}
+.old-wrapped input.phone_two {
+    width: 29px;
+    margin-left: 1px;
+}
+.old-wrapped input.phone_four {
+    width: 65px;
+    margin-left: 1px;
+}
+.old-wrapped input.phone_four_check {
+    width: 49px;
+    margin-left: 1px;
+}
+
+.old-wrapped input.phone_sem {
+    width: 94px;
+    margin-left: 1px;
+}
+
+.old-wrapped input.phone_for_ext {
+    width: 88px;
+    margin-left: 1px;
+    font-size:85%;
+    text-align: center;
+}
+.old-wrapped input.phone_ext {
+    width: 32px;
+    margin-left: 1px;
+}
+.old-wrapped input.pay_comment {
+    width: 100px;
+}
+.old-wrapped input.create_button {
+    width: 20px;
+    background-image: url(../images/tasks/create.gif);
+    background-position: center center;
+    height: 20px;
+    clear: left;
+    margin-top: 1px;
+}
+
+.old-wrapped input.excel_button {
+    width: 20px;
+    height: 20px;
+    background: url(../../images/excel.png) no-repeat 50% 50% transparent;
+    border:none;
+    clear: left;
+    margin-top: 1px;
+    cursor:pointer;
+}
+
+.old-wrapped input.delete_button {
+    width: 20px;
+    background-image: url(../images/tasks/delete.gif);
+    background-position: center center;
+    height: 20px;
+    clear: left;
+    margin-top: 1px;
+}
+.old-wrapped input.pdf_button {
+    width: 20px;
+    background-image: url(../images/pdf.gif);
+    background-position: center center;
+    height: 20px;
+    clear: left;
+    margin-top: 1px;
+}
+.old-wrapped input.lock_button {
+    width: 20px;
+    background-image: url(../images/tasks/lock.gif);
+    background-position: center center;
+    height: 20px;
+    clear: left;
+    margin-top: 1px;
+}
+.old-wrapped input.view_button {
+    width: 20px;
+    background-image: url(../images/view.gif);
+    background-position: center center;
+    height: 20px;
+    clear: left;
+    margin-top: 1px;
+}
+.old-wrapped input.no_image_button {
+    width: 100%;
+    height: 20px;
+    font-weight: bold;
+    margin-top: 1px;
+    padding:0px;
+}
+.old-wrapped input.edit_button {
+    width: 20px;
+    background-image: url(../images/edit.gif);
+    background-position: center center;
+    height: 20px;
+    clear: left;
+    margin-top: 1px;
+}
+.old-wrapped input.print_button {
+    width: 20px;
+    background-image: url(../images/print.gif);
+    background-position: center center;
+    height: 20px;
+    clear: left;
+    margin-top: 1px;
+}
+.old-wrapped input.submit_button {
+    width: 20px;
+    background-image: url(../images/tasks/submit.gif);
+    background-position: center center;
+    height: 20px;
+    clear: left;
+    margin-top: 1px;
+}
+
+.old-wrapped input.info_button {
+    width: 20px;
+    background-image: url(../images/info.gif);
+    background-position: center center;
+    height: 20px;
+    clear: left;
+    margin-top: 1px;
+    background-color:#FFFFFF;
+    border:none;
+}
+.old-wrapped input.log_button_one{
+    width: 21px;
+    height: 24px !important;
+    height: 24px;
+    clear: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.old-wrapped input.log_button {
+    background-image: url(../images/tasks/submit.gif);
+    background-position: center center;
+    width: 21px;
+    height: 24px !important;
+    height: 24px;
+    clear: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.old-wrapped input.checkbox {
+    width: 14px !important;
+    width: 16px;
+}
+.old-wrapped input.right_button {
+    width: 33px;
+}
+.old-wrapped input.log_upper_in {
+    width: 113px !important;
+    width: 113px;
+    text-indent: 2pt;
+    margin: 0px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+.old-wrapped input.sx_upper_in {
+    width: 132px !important;
+    width: 132px;
+    text-indent: 2pt;
+    margin: 0px !important;
+    margin: 0px;
+    border: 0px;
+    text-align: center;
+}
+.old-wrapped input.sx_notes {
+    width: 450px;
+}
+.old-wrapped input.sx_recall {
+    width:674px;
+    text-align: left;
+    margin-bottom: 0px;
+    white-space: pre;
+    clear:none;
+    float:none;
+}
+.old-wrapped input.notes_recall {
+    width:450px;
+    text-align: left;
+    margin-bottom: 0px;
+    white-space: pre;
+    clear:none;
+    float:none;
+}
+/* labels */
+.old-wrapped label {
+    text-align: right;
+    width: 100px;
+    padding-right: 10px;
+    clear: left;
+}
+.old-wrapped label.no_float {
+    text-align: right;
+    width:auto;
+    padding-right: 0px;
+    clear: none;
+}
+.old-wrapped label.state{
+    width: 75px;
+    text-align: right;
+    clear: none;
+}
+.old-wrapped label.zip {
+    text-align: right;
+    width: 30px;
+    clear: left;
+}
+.old-wrapped label.right{
+    text-align: right;
+    width: 75px !important;
+    width: 95px;
+    padding-left: 5px;
+    clear: none;
+}
+.old-wrapped label.eval_right{
+    text-align: right;
+    width: 50px !important;
+    width: 55px;
+    padding-left: 0px;
+    clear: none;
+}
+.old-wrapped label.dob{
+    width: 25px;
+    float: right;
+    clear: right;
+}
+.old-wrapped label.left_email{
+    text-align: left;
+    width: 45px !important;
+    width: 50px;
+    padding-left: 5px;
+    clear: none;
+}
+.old-wrapped label.eblast{
+    text-align: right;
+    width: 150px !important;
+    width: 160px;
+    padding-left: 5px;
+    clear: none;
+}
+.old-wrapped label.right_sem_one{
+    text-align: right;
+    width: 55px !important;
+    width: 65px;
+    padding-left: 5px;
+    clear: none;
+}
+.old-wrapped label.right_sem_two{
+    text-align: right;
+    width: 150px !important;
+    width: 160px;
+    padding-left: 5px;
+    clear: none;
+}
+.old-wrapped label.right_check{
+    text-align: right;
+    width: 120px !important;
+    width: 130px;
+    padding-left: 5px;
+    clear: none;
+}
+.old-wrapped label.head {
+    width: 100px !important;
+    width: 100px;
+}
+.old-wrapped label.eval_sht_head {
+    width: 123px !important;
+    width: 123px;
+}
+.old-wrapped label.head_upload {
+    width: 55px !important;
+    width: 55px;
+}
+.old-wrapped label.head_upload_b {
+    width: 75px !important;
+    width: 75px;
+}
+.old-wrapped label.head_sx {
+    width: 120px !important;
+    width: 128px;
+}
+.old-wrapped label.asc {
+    width: 130px !important;
+    width: 135px;
+}
+.old-wrapped label.lowhead {
+    width: 115px !important;
+    width: 125px;
+}
+.old-wrapped label.rlowhead {
+    width: 110px !important;
+    width: 115px;
+}
+.old-wrapped label.mrilowhead {
+    width: 140px !important;
+    width: 145px;
+}
+.old-wrapped label.task {
+    width: 135px !important;
+    width: 145px;
+    text-align: left;
+    padding-top: 4px !important;
+    padding-top: 5px;
+    padding-left: 5px;
+    clear: none;
+}
+/* Selects */
+.old-wrapped select.source {
+    width: 170px;
+}
+.old-wrapped select.user_intials {
+    width: 65px !important;
+    width: 65px;
+}
+.old-wrapped select.sx_upper_in {
+    width: 133px !important;
+    width: 132px;
+    text-indent: 2pt;
+    margin: 0px !important;
+    margin: 0px;
+    border: 0px;
+    text-align: center;
+}
+.old-wrapped select.log_upper_in {
+    width: 113px !important;
+    width: 113px;
+    text-indent: 2pt;
+    margin: 0px !important;
+    margin: 0px;
+    border: 0px;
+    text-align: left;
+}
+.old-wrapped select.log_upper_in_req {
+    width: 113px !important;
+    width: 113px;
+    text-indent: 2pt;
+    margin: 0px !important;
+    margin: 0px;
+    border: 0px;
+    text-align: left;
+    background-color:#FF0000;
+    color:#FFFFFF;
+}
+/* Textareas*/
+.old-wrapped textarea.web_note_comments {
+    margin:2px;
+    background-color: #EAF1DC;
+    width: 380px;
+    height: 140px;
+    -mozilla-border-radius:3px;
+    border:none !important;
+}
+.old-wrapped textarea.web_comments {
+    background-color: #EAF1DC;
+    width: 290px;
+    position: absolute;
+    height:350px;
+    left: 5px;
+    bottom: 5px;
+}
+.old-wrapped textarea.note_comments {
+    background-color: #EAF1DC;
+    width: 290px;
+    position: absolute;
+    height:440px;
+    left: 5px;
+    bottom: 5px;
+}
+.old-wrapped textarea.fin_comments {
+    background-color: #EAF1DC;
+    width: 265px;
+    position: absolute;
+    height:460px;
+    left: 5px;
+    bottom: 5px;
+}
+
+.old-wrapped textarea.wc_comments {
+    background-color: #EAF1DC;
+    width: 265px;
+    position: absolute;
+    height:520px;
+    left: 5px;
+    bottom: 5px;
+    border:none;
+}
+
+.old-wrapped textarea.mri_cons_notes {
+    margin:2px;
+    width: 280px;
+    height: 120px;
+    border:none !important
+}
+.old-wrapped textarea.sem_note_comments {
+    background-color: #EAF1DC;
+    width: 490px;
+    position: absolute;
+    height: 145px;
+    left: 5px;
+    bottom: 5px;
+}
+/* Tables */
+.old-wrapped table.log_upper_in {
+    margin-bottom: 4px !important;
+    margin-bottom: -4px;
+}
+.old-wrapped table.sx_upper_in {
+    margin-bottom: 0px !important;
+    margin-bottom: -4px;
+    clear:left;
+}
+.old-wrapped td.log_upper_in {
+    width: 113px;
+}
+.old-wrapped td.sx_upper_in {
+    width: 133px !important;
+    width: 132px;
+}
+
+.tooltip {
+    visibility:hidden;
+    position:absolute; 
+    border:1px solid black; 
+    background-color:#FFFFCC;
+    padding:5px;
+    z-index:100000;
+}
+.old-wrapped textarea.red_back{
+    border:solid red 1px;
+}
+/* NEW CSS STYLES */
+.old-wrapped #ins_ver_a input.text, #ins_ver_a select {
+    background: url(../images/form_shadow.jpg) no-repeat top left;
+    float:none;
+    border: 1px #a0c4e4 solid;
+    font: 13px Tahoma, Arial;
+    padding: 1px 1px;
+    margin: 0px 0px 0 0;
+}
+.old-wrapped #ins_ver_a input.yellow  {
+    background: url(../images/form_shadow_y.jpg) no-repeat top left;
+    float:none;
+    border: 1px #a0c4e4 solid;
+    font: 13px Tahoma, Arial;
+    padding: 1px 1px;
+    margin: 0px 0px 0 0;
+}
+.old-wrapped #ins_ver_a input.disabled_field {
+    background: url(../images/form_shadow_disabled.jpg) no-repeat top left;
+    color:#000;
+}
+.old-wrapped #ins_ver_a input.req, #ins_ver_a select.req {
+    border:#FF0000 1px solid;
+}
+.old-wrapped #ins_ver_a input.req_ver  {
+    border:#0033FF 1px solid;
+}
+.old-wrapped #ins_ver_a input.radio {
+    float:none;
+    display:inline;
+    width:20px;
+    border: 1px #a0c4e4 solid;
+}
+
+.old-wrapped #ins_ver_a textarea {
+    background: url(../images/form_shadow.jpg) no-repeat top left;
+    float:none;
+    border: 1px #a0c4e4 solid;
+    font: 13px Tahoma, Arial;
+    padding: 1px 1px;
+    margin: 0px 0px 0 0;
+}
+
+.old-wrapped #ins_ver_a textarea.yellow {
+    background: url(../images/form_shadow_y.jpg) no-repeat top left;
+}
+
+.old-wrapped #ins_ver_a table td label {
+    display:inline;
+    float:none;
+    margin:0px;
+    width:auto;
+    font-family:arial;
+    font-size:14px;
+    font-size-adjust:none;
+    font-stretch:normal;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:bold;
+    line-height:normal;
+    color:#333333;
+    padding:7px 0px 2px 0px;
+}
+.old-wrapped #ins_ver_a table td label.sm_text {
+    font-size:11px;
+    padding:0px 5px 0px 0px;
+}	
+.old-wrapped #ins_ver_a table td.field {
+    padding:0px 25px 0px 0px;
+}
+.old-wrapped #ins_ver_a table td legend label {
+    color:#003399;
+}
+
+.old-wrapped textarea.yellow {
+    background: url(../images/form_shadow_y.jpg) no-repeat top left;
+}
+.old-wrapped input.shadow,select.shadow,textarea.shadow {
+    background: url(../images/form_shadow.jpg) no-repeat top left;
+    border: 1px #a0c4e4 solid;
+}
+.old-wrapped input.shadow_dis,select.shadow_dis {
+    background: url(../images/form_shadow_disabled.jpg) no-repeat top left;
+    border: 1px #a0c4e4 solid;
+    color:#000000;
+}
+.old-wrapped input.shadow_main_req,select.shadow_main_req {
+    background: url(../images/form_shadow_req.jpg) no-repeat top left;
+    border: 2px red solid;
+}
+.old-wrapped input.shadow_blue,select.shadow_blue {
+    background: url(../images/form_shadow_bl.jpg) no-repeat top left  !important; 
+    color:blue !important;
+}

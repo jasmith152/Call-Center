@@ -1,0 +1,21 @@
+#papermargin
+{
+	position:absolute;
+	left:36px;
+	top:36px;
+	width:624px;
+	height:768px;
+	z-index:1;
+	border: 1px solid;
+
+}
+#pages
+{
+	position:absolute;
+	left:36px;
+	top:768px;
+	width:624px;
+	height:96px;
+	z-index:1;
+	border: 1px solid;
+}

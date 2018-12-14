@@ -1,0 +1,15 @@
+@import url('/ccenter/css/themes/redmond/jquery-ui.css');
+@import url("/ccenter/css/themes/redmond/jquery-custom-ui.css");
+@import url('/ccenter/css/common_wrapped.css');
+@import url('/ccenter/css/common.css');
+@import url('/ccenter/css/layers.css');
+@import url('/ccenter/css/menu.css');
+@import url('/ccenter/css/new_pt_sht_sub_menu.css');
+@import url('/ccenter/css/ins_ver_sub_menu.css');
+@import url('/ccenter/css/wc_lop_sub_menu.css');
+@import url('/ccenter/css/balloontip.css');
+td button.ui-button{
+    font-size: 65.5%;
+}
+.ui-widget .ui-widget { font-size: .8em; }
+.ui-widget { font-size: .8em; }

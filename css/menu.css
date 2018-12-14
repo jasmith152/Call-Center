@@ -1,0 +1,73 @@
+.shadetabs{
+  margin-top:5px;
+  border-bottom: 1px solid #A6C9E2;
+  /* width: 90%; width of menu. Uncomment to change to a specific width */
+  margin-bottom: 3px;
+}
+
+.shadetabs ul{
+  padding: 3px 0;
+  margin-left: 0;
+  margin-top: 1px;
+  margin-bottom: 0;
+  font: bold 10px arial;
+  list-style-type: none;
+  text-align: left; /*set to left, center, or right to align the menu as desired*/
+}
+
+.shadetabs li{
+  display: inline;
+  margin: 0;
+}
+
+.shadetabs li a img{
+  margin-bottom: -3px;
+}
+
+.shadetabs li a{
+  background: url(themes/redmond/images/ui-bg_glass_85_dfeffc_1x400.png) repeat-x scroll 50% 50% #DFEFFC;
+  text-decoration: none;
+  padding: 4px 7px 2px 7px;
+  margin-right: 3px;
+  border: 1px solid #A6C9E2;
+  color: #2E6E9E;
+  border-bottom-color: white;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.shadetabs li a:visited{
+  color: #2E6E9E;
+}
+
+.shadetabs li a:hover{
+  background: url(themes/redmond/images/ui-bg_glass_75_d0e5f5_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #1d5987;
+  color: #2E6E9E;
+}
+
+.shadetabs li.selected{
+  position: relative;
+  top: 1px;
+}
+
+.shadetabs li.selected a{
+  background: url(themes/redmond/images/ui-bg_inset-hard_100_f5f8f9_1x100.png) 50% 50% repeat-x; font-weight: bold; color: #e17009;
+  padding: 4px 7px 2px 7px;
+  color:#E17009;
+  border-bottom-color: white;
+}
+
+.shadetabs li.selected a:hover{ /*selected main tab style */
+  text-decoration: none;
+}
+
+.shadetabs li.disabled a{
+  background: url(themes/redmond/images/ui-bg_inset-hard_100_e8e3e3_1x100.png) 50% 50% repeat-x; font-weight: bold; color: #e17009;
+  padding: 4px 7px 2px 7px;
+  color:#E17009;
+  border-bottom-color: white;
+}
+
+.shadetabs li.disabled a:hover{ /*selected main tab style */
+  text-decoration: none;
+}
